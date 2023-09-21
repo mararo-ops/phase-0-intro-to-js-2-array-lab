@@ -1,5 +1,3 @@
-// helpers.js
-
 let cats = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendCat(name) {
@@ -46,17 +44,4 @@ module.exports = {
     removeFirstCat
 };
 
-const {
-  cats,
-  destructivelyAppendCat,
-  destructivelyPrependCat,
-  destructivelyRemoveLastCat,
-  destructivelyRemoveFirstCat,
-  appendCat,
-  prependCat,
-  removeLastCat,
-  removeFirstCat
-} = require('./helpers.js');
-
-// ... rest of your test suite remains unchanged ...
-
+// ... rest of your code ...
